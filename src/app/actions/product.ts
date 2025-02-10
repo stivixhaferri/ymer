@@ -18,7 +18,7 @@ export async function createProduct(formData: FormData) {
   // Generate unique filename
   const timestamp = new Date().toISOString().replace(/[-:.]/g, "").toLowerCase()
   const filename = `${timestamp}.webp`
-  const imagePath = path.join(process.cwd(), "public", "uploads", filename)
+  const imagePath = path.join(process.cwd(), "uploads", filename)
 
   // Convert and save image
   const imageBuffer = Buffer.from(await image.arrayBuffer())
