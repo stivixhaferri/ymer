@@ -43,7 +43,7 @@ export default function MobileMenu() {
               </Link>
             ))}
           </nav>
-          <div className="py-6 text-center text-gray-500 text-sm">© 2023 FastFood Delight</div>
+          <div className="py-6 text-center text-gray-500 text-sm">© 2025 Ymer&apos; Grill</div>
         </div>
       </SheetContent>
     </Sheet>
